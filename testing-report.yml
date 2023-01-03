@@ -14,42 +14,42 @@ summary: |
 status:
   pass
  
- summary: |
+summary: |
   Проверка возможности добавлять товары в корзину и просматривать содержимое корзины
- status:
+status:
   pass
   
- summary: |
+summary: |
   проверка безопасности сайта с защитой данных
- status:
+status:
   pass
   
- summary: |
+summary: |
   проверка мобильной версии сайта
- status:
+status:
   fail
   
- summary: |
+summary: |
   проверка интернет-магазина с разных браузеров
- status:
+status:
   pass
   
- summary: |
+summary: |
   проверка интернет-магазина с большим количеством трафика
- status:
+status:
   pass
   
- summary: |
+summary: |
    проверка работоспособности сайта на различных устройствах
- status:
+status:
    fail
    
- summary: |
+summary: |
    проверка оптимизации скорости работы и удобства использования
- status:
+status:
    pass
    
- summary: |
+summary: |
    проверка веб сайта на низкую скорость интернета или его отсутстие
- status:
+status:
    fail
