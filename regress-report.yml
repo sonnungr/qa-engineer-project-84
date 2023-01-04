@@ -15,8 +15,8 @@ bugreports:
       Версия 108.0.5359.125 (Официальная сборка) (64 бит)
       ОС Microsoft Windows
     steps-to-reproduce: |
-      1.зайти на страницу https://hexlet-products-store.vercel.app/
-      2.просмотреть в левой колонке возможности фильтровать товар
+      1. зайти на страницу https://hexlet-products-store.vercel.app/
+      2. просмотреть в левой колонке возможности фильтровать товар
     expected-result: |
       должна быть колонка с возможностью фильтрации товара по цене,цвету и размеру
     actual-result: |
@@ -35,10 +35,10 @@ bugreports:
      Версия 108.0.5359.125 (Официальная сборка) (64 бит)
      ОС Microsoft Windows     
     steps-to-reproduce: |
-     1.зайти на страницу https://hexlet-products-store.vercel.app/
-     2.добавить товар iPhone 9 и Samsung Universe 9 в корзину
-     3.открыть корзину 
-     4.нажать Оформить заказ
+     1. зайти на страницу https://hexlet-products-store.vercel.app/
+     2. добавить товар iPhone 9 и Samsung Universe 9 в корзину
+     3. открыть корзину 
+     4. нажать Оформить заказ
     expected-result: |
      при закрытии оформления товара должна работать кнопка "крестик" в правом верхнем углу
      количество оформляемого товара при заказе от двух товаров должно быть выровнено по сетке
@@ -59,10 +59,10 @@ bugreports:
      Версия 108.0.5359.125 (Официальная сборка) (64 бит)
      ОС Microsoft Windows     
     steps-to-reproduce: |
-     1.открыть страницу интернет-магазина
-     2.зайти в devTools и выбрать параметр Toggle devace toolbar
-     3.добавить товар iPhone 9 и Samsung Universe 9 в корзину
-     4.зайти в корзину  
+     1. открыть страницу интернет-магазина
+     2. зайти в devTools и выбрать параметр Toggle devace toolbar
+     3. добавить товар iPhone 9 и Samsung Universe 9 в корзину
+     4. зайти в корзину  
     expected-result: |
      в мобильной версии сайта пользователь должен иметь возможность искать товар по ключевому слову
      в мобильной версии сайта пользователь должен иметь возможность искать товар по категориям и цене
@@ -83,15 +83,15 @@ bugreports:
      Версия 108.0.5359.125 (Официальная сборка) (64 бит)
      ОС Microsoft Windows     
     steps-to-reproduce: |
-     1.открыть google chrome iOS: 106.0.5249.92
-     2.зайти на https://hexlet-products-store.vercel.app/
-     3.выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
-     4.открыть mozila 107.0.1
-     5.зайти на https://hexlet-products-store.vercel.app/
-     6.выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
-     7.открыть internet explorer 11.0.270
-     8.зайти на https://hexlet-products-store.vercel.app/
-     9.выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
+     1. открыть google chrome iOS: 106.0.5249.92
+     2. зайти на https://hexlet-products-store.vercel.app/
+     3. выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
+     4. открыть mozila 107.0.1
+     5. зайти на https://hexlet-products-store.vercel.app/
+     6. выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
+     7. открыть internet explorer 11.0.270
+     8. зайти на https://hexlet-products-store.vercel.app/
+     9. выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
     expected-result: |
      сайт при просмотре с разных браузеров должен быть оформлен для удобства пользования,оформление должно быть выровнено по сетке
     actual-result: |
@@ -109,10 +109,10 @@ bugreports:
       Версия 108.0.5359.125 (Официальная сборка) (64 бит)
       ОС Microsoft Windows
     steps-to-reproduce: |
-      1.открыть https://hexlet-products-store.vercel.app/
-      2.нажать f12,зайти в DevTools
-      3.нажать toggle Device toolbar
-      4.в строке Dimensions:Responsive выбрать параметры:iPhone XR,Samsung Galaxy S8+,Nest Hub
+      1. открыть https://hexlet-products-store.vercel.app/
+      2. нажать f12,зайти в DevTools
+      3. нажать toggle Device toolbar
+      4. в строке Dimensions:Responsive выбрать параметры:iPhone XR,Samsung Galaxy S8+,Nest Hub
     expected-result: |
       сайт при просмотре с разных устройств должен быть оформлен для удобства пользования,оформление должно быть выровнено по сетке
     actual-result: |
