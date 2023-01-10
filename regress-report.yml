@@ -21,10 +21,6 @@ test-cases:
     status: pass
     
   - summary: |
-     проверка интернет-магазина с разных браузеров
-    status: fail
-    
-  - summary: |
      проверка работоспособности сайта на мобильных устройствах
     status: fail
     
@@ -104,25 +100,5 @@ bugreports:
     actual-result: |
      главная страница не выровнена по сетке
      в корзине кнопки и описание товара не выравнены по сетке
-     
-  - summary:
-     в браузере Google Chrome при оформлении товара количество не выровнено по сетке
-    environment: |
-     Версия 108.0.5359.125 (Официальная сборка) (64 бит)
-     ОС Microsoft Windows     
-    steps-to-reproduce: |
-     1. открыть google chrome iOS: 106.0.5249.92
-     2. зайти на https://hexlet-products-store.vercel.app/
-     3. выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
-     4. открыть mozila 107.0.1
-     5. зайти на https://hexlet-products-store.vercel.app/
-     6. выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
-     7. открыть internet explorer 11.0.270
-     8. зайти на https://hexlet-products-store.vercel.app/
-     9. выбрать товар iPhone 9 и Samsung Universe 9 и добавить в корзину
-    expected-result: |
-     сайт при просмотре с разных браузеров должен быть оформлен для удобства пользования,оформление должно быть выровнено по сетке
-    actual-result: |
-     в браузере Google Chrome при оформлении товара количество не выровнено по сетке  
      
 
