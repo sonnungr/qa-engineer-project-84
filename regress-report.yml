@@ -13,14 +13,6 @@ test-cases:
     status: pass
     
   - summary: |
-      Проверка возможности фильтровать товар по цвету
-    status: fail
-    
-  - summary: |
-      Проверка возможности фильтровать товар по размеру
-    status: fail
-    
-  - summary: |
       проверка возможности просматривать товар 
     status: pass
     
