@@ -67,27 +67,6 @@
    - открыть выбранный товар
   expected-result: |
    пользователь должен найти выбранный им товар в корзине 
-  
-- summary: |
-   проверка интернет-магазина с разных браузеров
-  requirement: |
-   сайт должен быть совместим с последними версиями браузеров
-  prerequisites: |
-   наличие браузеров последних версий google chrome,mozila,internet explorer
-  test-data: |
-   ---
-  steps:
-   - открыть google chrome iOS:106.0.5249.92 
-   - зайти на https://hexlet-products-store.vercel.app/
-   - выбрать товар и добавить в корзину
-   - открыть mozila 107.0.1
-   - зайти на https://hexlet-products-store.vercel.app/
-   - выбрать товар и добавить в корзину
-   - открыть internet explorer 11.0.270
-   - зайти на https://hexlet-products-store.vercel.app/
-   - выбрать товар и добавить в корзину
-  expected-result: |
-   пользователь должен зайти в интеренет-магазин адаптированный под разные браузеры
    
 - summary: |
    проверка работоспособности сайта на различных устройствах
