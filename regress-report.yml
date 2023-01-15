@@ -1,6 +1,6 @@
 ---
 test-cases:
-    - summary: |
+  - summary: |
       проверка возможности фильтровать товар по цене
     status: pass
     
